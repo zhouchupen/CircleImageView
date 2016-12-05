@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <com.scnu.zhou.widget.CircleImageView
+        android:id="@+id/civ_userheader"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/picture"
+        app:border_color="#ffffff"
+        app:border_width="2dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
